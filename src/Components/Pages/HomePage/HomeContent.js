@@ -1,7 +1,7 @@
 import React from 'react';
-import BackgroundImage from "../../Photos/Background.jpg"
+import BackgroundImage from "../../../Photos/Background.jpg"
 import Link from '@mui/joy/Link';
-import emre from '../../Photos/emre.png';
+import emre from "../../../Photos/emre.png"
 import { motion } from "framer-motion"
 export default function HomeContent() {
     return (
