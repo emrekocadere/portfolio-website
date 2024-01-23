@@ -1,11 +1,11 @@
-import Link from '@mui/joy/Link';
+import { Link } from "react-router-dom";
 
 function CustomNavigation() {
     return (
         <div style={{paddingBottom:"15px",display:"flex",gap:"35px"}}>
-            <Link textColor={"white"}>About Me</Link>
-            <Link textColor={"white"}>Skills</Link>
-            <Link textColor={"white"}>Projects</Link>
+            <Link to="aboutme" style={{color:"white"}}>About Me</Link>
+            <Link  style={{color:"white"}}>Skills</Link>
+            <Link  style={{color:"white"}}>Projects</Link>
         </div>
     );
 }
