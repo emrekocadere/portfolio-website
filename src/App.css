@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+body{
+  font-family: 'Press Start 2P', system-ui;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
