@@ -1,16 +1,14 @@
 import React from "react";
 import CustomHeader from "../../../Components/Header/CustomHeader"
 import HomeContent from "./HomeContent";
+import BackgroundImage from "../../../Photos/CodeWallpaper.avif"
 
 export default function HomePage() {
     return (
 
-        <div > 
-            <CustomHeader></CustomHeader>
-            <div style={{ display: "flex", justifyContent: "center"}}>
-                <HomeContent />
-            </div>
-
+        <div style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize: "cover", width: "100vw",height:"100vh" }}>
+        
+            <HomeContent />
         </div>
 
 
