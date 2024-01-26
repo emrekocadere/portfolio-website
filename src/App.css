@@ -6,11 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
-body{
+
+.homepage{
   font-family: 'Press Start 2P', system-ui;
-font-family: 'Source Code Pro', monospace;
 }
 
+.aboutme{
+  font-family: 'Source Code Pro', monospace;;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
