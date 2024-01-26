@@ -5,9 +5,9 @@ import HomeContent from "./HomeContent";
 export default function HomePage() {
     return (
 
-        <div>
+        <div > 
             <CustomHeader></CustomHeader>
-            <div style={{ display: "flex", justifyContent: "center", marginTop: "30px" }}>
+            <div style={{ display: "flex", justifyContent: "center"}}>
                 <HomeContent />
             </div>
 
