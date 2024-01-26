@@ -2,15 +2,14 @@ import React from 'react';
 import BackgroundImage from "../../../Photos/CodeWallpaper.avif"
 import Link from '@mui/joy/Link';
 import emre from "../../../Photos/emre.png"
-import { Button, Flex } from 'antd';
-import { Radio, Typography } from 'antd';
+import SocialLinks from '../../Header/SocialLinks';
 import { motion } from "framer-motion"
 import "../../.."
 export default function HomeContent({ backgroundImage }) {
     return (
 
 
-        <div className="homepage" style={{ paddingTop: "35px", backgroundImage: `url(${BackgroundImage})`, backgroundSize:"cover",height:"85vh"}}>
+        <div className="homepage" style={{ paddingTop: "35px"}}>
             <div style={{ display: "flex" }}>
                 <div >
                     <motion.div
@@ -25,7 +24,7 @@ export default function HomeContent({ backgroundImage }) {
                         <h2 style={{ color:  "#A838D8", opacity: ".8", fontSize: "30px", paddingLeft: "250px" }}>Software Engineer</h2>
                     </motion.div>
                 </div>
-                <div style={{ display: "flex", justifyContent: "right", paddingLeft: "400px" }}>    
+                <div style={{marginLeft:"20vw" }}>    
                     <img src={emre} alt="Avatar" width="300" height="300" style={{ objectFit: "cover", borderRadius: "100%", borderColor: "#A838D8", borderWidth: "5px", borderStyle: "solid", }} />
                 </div>
             </div>
@@ -40,8 +39,9 @@ export default function HomeContent({ backgroundImage }) {
                 <a  href='/skills' style={{ paddingBlock:"10px",color: "#A838D8", marginLeft: "100px",paddingLeft:"30px", fontSize: "20px",borderStyle:"solid",borderColor:"#A838D8",borderWidth:"3px",fontFamily:" 'Press Start 2P', system-ui; "}}>
                     Skills
                 </a>
-
             </div>
+                        
+                        
         </div>
 
     );
