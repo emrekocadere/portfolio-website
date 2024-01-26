@@ -7,13 +7,13 @@ const { Paragraph } = Typography;
 export default function AboutmeContent() {
     return (
 
-        <div style={{
+        <div className='aboutme' style={{
             justifyContent: "center", display: "flex",
             borderStyle: "solid", borderWidth: "2px", borderColor: "#A838D8",
             color: "#209761", borderRadius: "30px", width: "1000px",
-            backgroundSize:"cover", backgroundColor:"rgba(0, 0, 0, 0.5)"
+            backgroundSize:"cover", backgroundColor:"rgba(0, 0, 0, 0.7)"
         }}>
-
+            
             <a 
                 style={{ color: "white", margin: "30px",fontFamily:"Source Code Pro', monospace"}}>
                 SMS Blücher,[Not 1] Alman İmparatorluk Donanması'nın son imal edilen zırhlı kruvazörü. Alman istihbaratınca, hatalı olarak İngiliz Invincible sınıfı kruvazörlerine ait olduğu zannedilen özelliklere göre tasarlanan Blücher, önceki zırhlı kruvazörlere göre daha büyük olup, daha fazla ağır silah taşısa da büyüklük ve silah bakımından Birleşik Krallık ile Alman donanmalarında zırhlı kruvazörler yerine getirilen muharebe kruvazörleriyle rekabet edebilecek konumda değildi. Gemi, ismini 1815 yılındaki Waterloo Muharebesi'nde Prusya kuvvetlerine komuta eden Generalfeldmarschall Gebhard Leberecht von Blücher'den almıştı.
