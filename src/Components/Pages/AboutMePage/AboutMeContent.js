@@ -11,7 +11,7 @@ export default function AboutmeContent() {
             justifyContent: "center", display: "flex",
             borderStyle: "solid", borderWidth: "2px", borderColor: "#A838D8",
             color: "#209761", borderRadius: "30px",  width: "65vw",
-            backgroundSize:"cover", backgroundColor:"rgba(0, 0, 0, 0.8)"
+            backgroundSize:"cover", backgroundColor:"rgba(67, 22, 86, 0.4)"
         }}>
 
             <a 
