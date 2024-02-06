@@ -1,5 +1,4 @@
 import React from 'react';
-import BackgroundImage from "../../../Photos/CodeWallpaper.avif"
 import Link from '@mui/joy/Link';
 import emre from "../../../Photos/emre.png"
 import SocialLinks from '../../Header/SocialLinks';
@@ -9,7 +8,7 @@ export default function HomeContent({ backgroundImage }) {
     return (
 
 
-        <div className="homepage" style={{ paddingTop: "35px"}}>
+        <div className="homepage" style={{backgroundColor:"rgba(0, 0, 0, 0.4)",height:"100vh"}}>
             <div style={{ display: "flex" }}>
                 <div >
                     <motion.div
