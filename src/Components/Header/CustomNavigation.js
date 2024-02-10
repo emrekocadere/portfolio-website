@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function CustomNavigation() {
     return (
-        <div style={{paddingBottom:"15px",display:"flex",gap:"35px"}}>
-            <Link to="aboutme" style={{color:"white"}}>About Me</Link>
-            <Link  style={{color:"white"}}>Skills</Link>
-            <Link  style={{color:"white"}}>Projects</Link>
+        <div style={{paddingRight:"70px",display:"flex",gap:"35px"}}>
+            <Link to="/aboutme" style={{color:"#A838D8"}}>About Me</Link>
+            <Link  style={{color:"#A838D8"}}>Skills</Link>
+            <Link  style={{color:"#A838D8"}}>Projects</Link>
         </div>
     );
 }
