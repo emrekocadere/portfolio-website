@@ -8,7 +8,7 @@ export default function HomeContent({ backgroundImage }) {
     return (
 
 
-        <div className="homepage" style={{backgroundColor:"rgba(0, 0, 0, 0.4)",height:"100vh"}}>
+        <div className="homepage" style={{backgroundColor:"rgba(0, 0, 0, 0.4)",height:"90vh"}}>
             <div style={{ display: "flex" }}>
                 <div >
                     <motion.div
