@@ -12,21 +12,7 @@ export default function CustomHeader() {
                 <CustomNavigation></CustomNavigation>
 
             </div>
-       
-
-
-
+    
     );
 }
 
-
-
-
-{/* <Header style={{ backgroundColor: '#209761', height: "100px" }}>
-<div style={{ flexDirection: "row", display: "flex" }}>
-    <NavigationLinks></NavigationLinks>
-    <div style={{ display: "flex", justifyContent: "right", display: "flex", width: "70%" }}>
-        <CustomNavigation></CustomNavigation>
-    </div>
-</div>
-</Header> */}
