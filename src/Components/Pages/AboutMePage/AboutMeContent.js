@@ -10,7 +10,7 @@ export default function AboutmeContent() {
         <div className='aboutme' style={{
             justifyContent: "center", display: "flex",
             borderStyle: "solid", borderWidth: "2px", borderColor: "#A838D8",
-            color: "#209761", borderRadius: "30px",  width: "65vw",
+             borderRadius: "30px",  width: "65vw",
             backgroundSize:"cover", backgroundColor:"rgba(67, 22, 86, 0.4)"
         }}>
 
