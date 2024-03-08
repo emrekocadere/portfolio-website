@@ -14,7 +14,7 @@ export default function SkillsContent() {
                 <div className='aboutme' style={{
                     justifyContent: "center", display: "flex",
                     borderStyle: "solid", borderWidth: ".2vw", borderColor: "#A838D8",
-                    borderRadius: "2.5vw", width: "65vw",
+                    borderRadius: "2.5vw", width: "50vw",
                     backgroundSize: "cover", backgroundColor: "rgba(67, 22, 86, 0.4)"
                 }}>
 
