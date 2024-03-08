@@ -22,6 +22,7 @@ export default function HomeContent({ backgroundImage }) {
 
                         <h1 style={{ color: "#A838D8", fontSize: "55px", fontFamily: " 'Press Start 2P', system-ui; ", fontSize: "35px" }}>Salih Emre Kocadere</h1>
                         <h2 style={{ color: "#A838D8", opacity: ".8", fontSize: "30px", paddingLeft: "250px" }}>Software Engineer</h2>
+                        <SocialLinks/>
                     </motion.div>
                 </div>
                 <div style={{ marginLeft: "20vw" }}>
@@ -29,29 +30,25 @@ export default function HomeContent({ backgroundImage }) {
                 </div>
             </div>
 
-            <div style={{ display: "flex", flexDirection: "column", width: "310px", }} className='buttons'>
+            <div style={{ display: "flex", flexDirection: "column", width: "20vw",marginLeft:"5vw" }} >
 
-
-                <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
-                    <a href='/aboutme' style={{ color: "#A838D8", paddingLeft: "30px", borderStyle: "solid", borderColor: "#A838D8", borderWidth: "3px", fontFamily: " 'Press Start 2P', system-ui; " }}>
+                <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
+                    <a href='/aboutme' style={{textDecoration:"none", backgroundColor:"rgba(67, 22, 86, 0.4)",justifyContent: "center", display: "flex", color: "#A838D8", fontSize: "1.5vw", borderStyle: "solid", borderColor: "#A838D8", borderWidth: "0.2vw", borderRadius: ".5vw", fontFamily: " 'Press Start 2P', system-ui; ", marginBlock: "1vh", padding: "1vh" }}>
                         About Me </a>
                 </motion.div>
+
                 <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
-                    <a href='/projects' style={{ color: "#A838D8", paddingLeft: "30px", fontSize: "20px", borderStyle: "solid", borderColor: "#A838D8", borderWidth: "3px", fontFamily: " 'Press Start 2P', system-ui; " }}>
+                    <a href='/projects' style={{ textDecoration:"none",backgroundColor:"rgba(67, 22, 86, 0.4)",justifyContent: "center", display: "flex", color: "#A838D8", fontSize: "1.5vw", borderStyle: "solid", borderColor: "#A838D8", borderWidth: "0.2vw", borderRadius: ".5vw", fontFamily: " 'Press Start 2P', system-ui; ", marginBlock: "1vh", padding: "1vh" }}>
                         Projects
                     </a>
                 </motion.div>
+
                 <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
-                    <a href='/skills' style={{ paddingBlock: "10px", color: "#A838D8", fontSize: "20px", borderStyle: "solid", borderColor: "#A838D8", borderWidth: "3px", fontFamily: " 'Press Start 2P', system-ui; " }}>
+                    <a href='/skills' style={{textDecoration:"none", backgroundColor:"rgba(67, 22, 86, 0.4)",justifyContent: "center", display: "flex", color: "#A838D8", fontSize: "1.5vw", borderStyle: "solid", borderColor: "#A838D8", borderWidth: "0.2vw", borderRadius: ".5vw", fontFamily: " 'Press Start 2P', system-ui; ", marginBlock: "1vh", padding: "1vh" }}>
                         Skills
                     </a>
                 </motion.div>
-
-
-
-
             </div>
-
 
         </div>
 
