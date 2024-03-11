@@ -2,6 +2,7 @@ import React from 'react';
 import AboutmeContent from './AboutMeContent';
 import CustomHeader from '../../Header/CustomHeader';
 import BackgroundImage from "../../../Photos/CodeWallpaper.avif"
+
 export default function AboutmePage() {
     return (
 
@@ -16,9 +17,7 @@ export default function AboutmePage() {
                 </div>
             </div>
 
-
         </div>
-
 
     );
 }                   
