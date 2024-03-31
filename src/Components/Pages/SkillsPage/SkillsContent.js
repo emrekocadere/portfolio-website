@@ -31,10 +31,10 @@ export default function SkillsContent() {
                     </a>
 
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }} >
-                    <img src={react} style={{ width: "5.5vw" }} />
-                    <img src={dotnet} style={{ width: "5.5vw" }} />
-                    <img src={docker} style={{ width: "5.5vw" }} />
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start"}} >
+                    <img src={react} style={{ width: "5.5vw",marginBottom:"5vh" }} />
+                    <img src={dotnet} style={{ width: "5.5vw",marginBottom:"5vh" }} />
+                    <img src={docker} style={{ width: "5.5vw",marginBottom:"5vh" }} />
                     <img src={antdesign} style={{ width: "5.5vw" }} />
                 </div>
             </div>
