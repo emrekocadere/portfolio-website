@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 function CustomNavigation() {
     return (
         <div className="homepage" style={{display:"flex",gap:"35px", fontSize:"1vw", justifyContent: "center", alignItems: "center",paddingRight:"10vh"}}>
+            <Link to="/" style={{color:"#A838D8",textDecoration:"none"}}>Home</Link>
             <Link to="/aboutme" style={{color:"#A838D8",textDecoration:"none"}}>About Me</Link>
             <Link to="/skills" style={{color:"#A838D8",textDecoration:"none"}}>Skills</Link>
             <Link to="/projects" style={{color:"#A838D8",textDecoration:"none"}}>Projects</Link>
