@@ -14,10 +14,12 @@ const ProjectsContent = () => (
       token: {
         // Seed Token
         colorPrimary: '#00b96b',
-        borderRadius: 2,
-
+        borderRadius: 10,
+        colorTextHeading:"white",
         // Alias Token
-        colorBgContainer: '#f6ffed',
+        colorBgContainer: 'rgba(67, 22, 86, 0.6 )',
+        colorBorderSecondary:"#A838D8",
+        colorText:"white"
       },
     }}
   >
